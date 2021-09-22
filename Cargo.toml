@@ -1,0 +1,9 @@
+[package]
+name = "frac"
+edition = "2018"
+version = "1.0.0"
+license = "BSD-3-Clause"
+authors = ["Avery R. <contact@nekodjin.xyz>"]
+homepage = "https://github.com/nekodjin/frac"
+repository = "https://github.com/nekodjin/frac"
+description = "Rational Number Data Type"
