@@ -3,6 +3,8 @@ mod methods;
 mod display;
 mod from_int;
 mod from_uint;
+mod partial_eq;
+mod partial_ord;
 mod neg;
 mod add;
 mod sub;
