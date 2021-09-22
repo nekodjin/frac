@@ -174,7 +174,7 @@ impl ops::Sub for Frac {
             }
         }
         else if rhs.neg {
-            self + rhs
+            self + -rhs
         }
         else {
             -(-self - -rhs)
@@ -283,11 +283,6 @@ const fn is_neg(n: i128) -> bool {
 
 const fn unsign(n: i128) -> u128 {
     n.abs() as u128
-}
-
-const fn sign(n: u128, s: bool) -> i128 {
-    let x = n as i128;
-    if s { -x } else { x }
 }
 
 const fn gcd_of(a: u128, b: u128) -> u128 {
