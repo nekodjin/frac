@@ -14,4 +14,4 @@ macro_rules! impl_from_uint {
     )*};
 }
 
-impl_from_uint! { u8, u16, u32, u64, u128 }
+impl_from_uint! { u8, u16, u32, u64, u128, usize }
