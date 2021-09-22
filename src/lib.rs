@@ -115,7 +115,7 @@ impl ops::Add for Frac {
                 rhs - self
             }
             else {
-                self - rhs
+                self - -rhs
             }
         }
         else {
