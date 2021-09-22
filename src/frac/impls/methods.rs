@@ -7,8 +7,10 @@ impl Frac {
     ///
     /// Examples:
     /// ```
-    /// let a: Frac = -12.into();
-    /// println!("{}", a.recip()); // -1/12
+    /// use frac::Frac;
+    ///
+    /// let f: Frac = (-12).into();
+    /// println!("{}", f.recip()); // -1/12
     /// ```
     pub fn recip(&self) -> Self {
         Frac {
