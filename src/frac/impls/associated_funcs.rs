@@ -11,6 +11,16 @@ macro_rules! unsign {
 }
 
 impl Frac {
+    /// Instantiate a new fraction
+    ///
+    /// This constructor takes as arguments the numerator and denominator, both
+    /// as i128s. The fraction will be simplified on initialization.
+    ///
+    /// Examples:
+    /// ```
+    /// let f = Frac::new(1, 2);
+    /// println!("{}", f); // 1/2
+    /// ```
     pub const fn new(num: i128, den: i128) -> Self {
         let neg = is_neg!(num) ^ is_neg!(den);
 
@@ -29,6 +39,17 @@ impl Frac {
         }
     }
 
+    /// Instnatiate a new fraction
+    ///
+    /// This constructor takes as arguments the numerator and denominator, both
+    /// as u128s, as well as the sign of the fraction. `true` represents
+    /// a negative value, `false` represents a positive value.
+    ///
+    /// Examples:
+    /// ```
+    /// let f = Frac::new_sign(true, 1, 12);
+    /// println("{}", f); // -1/12
+    /// ```
     pub const fn new_sign(neg: bool, num: u128, den: u128) -> Frac {
         let gcd = gcd_of(num, den);
 

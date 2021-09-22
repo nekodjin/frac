@@ -1,5 +1,6 @@
 mod impls;
 
+/// Represents a rational number
 #[derive(Debug, Clone)]
 pub struct Frac {
     neg: bool,
