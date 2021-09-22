@@ -9,7 +9,7 @@ impl Frac {
     /// ```
     /// use frac::Frac;
     ///
-    /// let f: Frac = Frac::from(-12);
+    /// let f = Frac::from(-12);
     /// println!("{}", f.recip()); // -1/12
     /// ```
     pub fn recip(&self) -> Self {

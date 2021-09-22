@@ -14,7 +14,7 @@ fn main() {
 
 ## LICENSE: BSD 3-Clause
 
-## Current Version: `1.2.3`
+## Current Version: `1.2.4`
 
 ## Contributors:
 - [Avery R.](mailto:contact@nekodjin.xyz)
