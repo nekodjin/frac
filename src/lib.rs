@@ -112,7 +112,7 @@ impl ops::Add for Frac {
     fn add(self, rhs: Frac) -> Frac {
         if self.neg ^ rhs.neg {
             if self.neg {
-                rhs - self
+                rhs - -self
             }
             else {
                 self - -rhs
