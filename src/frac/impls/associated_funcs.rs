@@ -10,6 +10,7 @@ macro_rules! unsign {
     };
 }
 
+/// Associated Functions
 impl Frac {
     /// Instantiate a new fraction
     ///

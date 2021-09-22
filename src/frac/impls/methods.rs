@@ -1,5 +1,6 @@
 use super::super::Frac;
 
+/// Instance Methods
 impl Frac {
     /// Reciprocal
     ///
