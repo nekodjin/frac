@@ -3,4 +3,5 @@ mod frac;
 #[cfg(test)]
 mod tests;
 
-pub type Frac = frac::Frac;
+pub use crate::frac::Frac;
+

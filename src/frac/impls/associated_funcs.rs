@@ -18,6 +18,8 @@ impl Frac {
     ///
     /// Examples:
     /// ```
+    /// use frac::Frac;
+    ///
     /// let f = Frac::new(1, 2);
     /// println!("{}", f); // 1/2
     /// ```
@@ -47,8 +49,10 @@ impl Frac {
     ///
     /// Examples:
     /// ```
+    /// use frac::Frac;
+    ///
     /// let f = Frac::new_sign(true, 1, 12);
-    /// println("{}", f); // -1/12
+    /// println!("{}", f); // -1/12
     /// ```
     pub const fn new_sign(neg: bool, num: u128, den: u128) -> Frac {
         let gcd = gcd_of(num, den);
