@@ -177,7 +177,7 @@ impl ops::Sub for Frac {
             self + -rhs
         }
         else {
-            -(-self - -rhs)
+            -(-self + -rhs)
         }
     }
 }
