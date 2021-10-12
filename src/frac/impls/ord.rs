@@ -7,6 +7,10 @@ impl cmp::PartialOrd for Frac {
             return None;
         }
 
+        if self.num == 0 && rhs.num == 0 {
+            return Some(cmp::Ordering::Equal);
+        }
+
         if self.neg ^ rhs.neg {
             if self.neg {
                 return Some(cmp::Ordering::Less);

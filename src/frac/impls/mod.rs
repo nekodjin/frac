@@ -1,12 +1,13 @@
-mod associated_funcs;
-mod methods;
-mod display;
-mod from_int;
-mod from_uint;
-mod partial_eq;
-mod partial_ord;
-mod neg;
-mod add;
-mod sub;
-mod mul;
-mod div;
+mod associated_funcs; // associated functions
+mod methods;          // instance methods
+mod display;          // std::fmt::Display
+mod from_int;         // std::convert::From<i__>
+mod from_uint;        // std::convert::From<u__>
+mod from_str;         // std::std::FromStr
+mod eq;               // std::ops::PartialEq
+mod ord;              // std::ops::PartialOrd
+mod neg;              // std::ops::Neg
+mod add;              // std::ops::Add
+mod sub;              // std::ops::Sub
+mod mul;              // std::ops::Mul
+mod div;              // std::ops::Div

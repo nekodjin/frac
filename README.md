@@ -14,7 +14,7 @@ fn main() {
 
 ## LICENSE: BSD 3-Clause
 
-## Current Version: `1.2.5`
+## Current Version: `1.3.0`
 
 ## Contributors:
 - [Avery R.](mailto:contact@nekodjin.xyz)
@@ -22,4 +22,4 @@ fn main() {
 ## Links
 #### [Crates.io](https://crates.io/crates/frac)
 #### [Docs.rs](https://docs.rs/frac)
-
+#### [GitHub](https://github.com/nekodjin/frac)

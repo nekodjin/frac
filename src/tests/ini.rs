@@ -1,6 +1,7 @@
 use super::super::Frac;
 
 #[test]
+// same sign
 fn xxx_xxx_same() {
     assert_eq!(
         Frac::new( 4,  5),
@@ -9,6 +10,7 @@ fn xxx_xxx_same() {
 }
 
 #[test]
+// different sign
 fn xxx_xxx_diff() {
     assert_eq!(
         Frac::new(-4,  5),
@@ -17,6 +19,7 @@ fn xxx_xxx_diff() {
 }
 
 #[test]
+// simplification
 fn xxx_xxx_smpl() {
     assert_eq!(
         Frac::new(30, 35),
